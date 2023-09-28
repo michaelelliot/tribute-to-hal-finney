@@ -1,0 +1,9 @@
+[package]
+name = "noir_proof_of_sha1_preimage_possession"
+description = "A zero-knowledge proof of possession of a pre-image of a SHA-1 hash"
+type = "bin"
+authors = ["@michaelelliot"]
+compiler_version = "0.10.5"
+
+[dependencies]
+sha1 = { tag = "v0.0.3", git = "https://github.com/michaelelliot/noir-sha1", directory = "crates/noir-sha1" }
